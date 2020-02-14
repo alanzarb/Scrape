@@ -1,4 +1,4 @@
-#
+#  Aaron Jack tutorial  -- using webdriver.Chrome()
 from selenium import webdriver
 from time import sleep
 from secrets import instaPassword, instaUserName, instaEmail
@@ -7,6 +7,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 class Instabot:
     def __init__(self, username, pw):
+        # self.driver = webdriver.Edge()
         self.driver = webdriver.Chrome()
         self.driver.get("https://instagram.com")
         sleep(2)
