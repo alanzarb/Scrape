@@ -21,7 +21,7 @@ class Instabot:
         self.driver.find_element_by_xpath(
             '//button[@type="submit"]').click()
         currentUrl = self.driver.current_url
-        print(currentUrl)
+        #print(currentUrl)
         print("after click")
         sleep(4)
         #self.driver.find_element_by_xpath('//button[@class="aOOlW   HoLwm "]').click()
