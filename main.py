@@ -22,7 +22,6 @@ class Instabot:
             "//input[@name=\"password\"]").send_keys(instaPassword)
         self.driver.find_element_by_xpath(
             '//button[@type="submit"]').click()
-        currentUrl = self.driver.current_url
         # print(currentUrl)
         print("after click")
         sleep(4)
