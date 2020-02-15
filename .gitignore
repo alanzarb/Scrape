@@ -131,10 +131,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-<<<<<<< HEAD
-# pytype static type analyzer
-.pytype/
-=======
+# VSCODE Section 2-15-2020
 # vscode
 .vscode/*
 !.vscode/settings.json
@@ -142,4 +139,4 @@ dmypy.json
 !.vscode/launch.json
 !.vscode/extensions.json
 *.code-workspace
->>>>>>> 72a065f7fdae682439ccda4b3ded22a7306c37fa
+
