@@ -3,6 +3,7 @@ from selenium import webdriver
 from time import sleep
 from secrets import instaPassword, instaUserName, instaEmail
 from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.common.keys import Keys
 
 
 class Instabot:
@@ -11,6 +12,7 @@ class Instabot:
         self.driver = webdriver.Chrome()
         self.driver.get("https://instagram.com")
         sleep(2)
+
         self.driver.find_element_by_xpath(
             "//a[contains(text(), 'Log in')]").click()
         sleep(2)
@@ -21,7 +23,7 @@ class Instabot:
         self.driver.find_element_by_xpath(
             '//button[@type="submit"]').click()
         currentUrl = self.driver.current_url
-        #print(currentUrl)
+        # print(currentUrl)
         print("after click")
         sleep(4)
         #self.driver.find_element_by_xpath('//button[@class="aOOlW   HoLwm "]').click()
@@ -32,6 +34,7 @@ class Instabot:
         print("after not now")
 # <button class="aOOlW   HoLwm " tabindex="0">Not Now</button>
 # /html/body/div[4]/div/div/div[3]/button[2]
+
 
 
 Instabot(instaUserName, instaPassword)
