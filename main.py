@@ -7,6 +7,7 @@ from selenium.webdriver.common.keys import Keys
 
 
 class Instabot:
+
     def __init__(self, username, pw):
         # self.driver = webdriver.Edge()
         self.driver = webdriver.Chrome()
@@ -31,6 +32,8 @@ class Instabot:
 
         sleep(3)
         print("after not now")
+
+    
 # <button class="aOOlW   HoLwm " tabindex="0">Not Now</button>
 # /html/body/div[4]/div/div/div[3]/button[2]
 
