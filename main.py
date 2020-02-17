@@ -7,7 +7,6 @@ from selenium.webdriver.common.keys import Keys
 
 
 class Instabot:
-
     def __init__(self, username, pw):
         # self.driver = webdriver.Edge()
         self.driver = webdriver.Chrome()
@@ -21,8 +20,7 @@ class Instabot:
             "//input[@name=\"username\"]").send_keys(instaUserName)
         self.driver.find_element_by_xpath(
             "//input[@name=\"password\"]").send_keys(instaPassword)
-        self.driver.find_element_by_xpath(
-            '//button[@type="submit"]').click()
+        self.driver.find_element_by_xpath('//button[@type="submit"]').click()
         # print(currentUrl)
         print("after click")
         sleep(4)
@@ -33,11 +31,9 @@ class Instabot:
         sleep(3)
         print("after not now")
 
-    
+
 # <button class="aOOlW   HoLwm " tabindex="0">Not Now</button>
 # /html/body/div[4]/div/div/div[3]/button[2]
-
-
 
 Instabot(instaUserName, instaPassword)
 
