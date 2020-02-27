@@ -12,7 +12,7 @@ for n in range(1):
         f"This log message goes to the console and the logfile")
     logger.info(
         f"This log message goes to the console and the logfile")
-    logger.warn(
+    logger.warning(
         f"This log message goes to the console and the logfile")
     logger.error(
         f"This log message goes to the console and the logfile")
