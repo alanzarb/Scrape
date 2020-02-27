@@ -31,6 +31,7 @@ if __name__ == "__main__":
     print(nm)
     bb = BobClass("george")
     bb = BobClass("Sam")
+    bc = BobClass("Zak")
     print(bb.howMany())
     counter = bb.howMany()
     print("Population is {0}".format(counter))
