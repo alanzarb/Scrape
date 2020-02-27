@@ -7,7 +7,8 @@ class BobClass:
     population = 0
 
     def __init__(self, name):
-        BobClass.population = BobClass.population + 1
+        BobClass.population += 1
+
         print("Name:" + name)
         self.name = name
 
