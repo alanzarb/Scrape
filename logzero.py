@@ -1,5 +1,5 @@
 #logzero
-
+import logging
 from logzero import logger
 
 logger.debug("hello debug")
