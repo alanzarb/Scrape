@@ -10,7 +10,7 @@ import sys
 """
 
 #     for arg in sys.argv[1:]:
-#         print(f"AAAArg: {arg} Type: {type(arg)}")
+#         print(f"Arg: {arg} Type: {type(arg)}")
 #         print("calling fib on " + arg)
 
 #         fib(int(arg))
