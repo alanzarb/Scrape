@@ -15,6 +15,9 @@ selenium = "*"
 rope = "*"
 yapf = "*"
 logzero = "*"
+jupyter = "*"
+numpy = "*"
+pandas = "*"
 
 [requires]
 python_version = "3.8"
